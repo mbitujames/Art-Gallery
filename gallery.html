@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI.Aida | Full Art Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">UI.<span>Aida</span></a>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#gallery">Gallery</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="index.html" class="btn btn-nav">Back to Home</a>
+        </nav>
+    </header>
+
+    <!-- Gallery Hero -->
+    <section class="gallery-hero">
+        <div class="gallery-hero-content reveal">
+            <h1>Full <span>3D Art</span> Collection</h1>
+            <p>Explore the complete portfolio of immersive 3D artworks and digital experiences.</p>
+        </div>
+    </section>
+
+    <!-- Full Gallery Section -->
+    <section class="full-gallery">
+        <div class="section-title reveal">
+            <h2>All Artworks</h2>
+            <p>Browse through our complete collection of 3D digital artworks.</p>
+        </div>
+        <div class="gallery-filter reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="abstract">Abstract</button>
+            <button class="filter-btn" data-filter="figurative">Figurative</button>
+            <button class="filter-btn" data-filter="architectural">Architectural</button>
+            <button class="filter-btn" data-filter="experimental">Experimental</button>
+        </div>
+        <div class="full-gallery-container">
+            <!-- Gallery items will be loaded here -->
+            <div class="gallery-item" data-category="abstract">
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Abstract 3D Art">
+                <div class="gallery-item-overlay">
+                    <h3>Digital Dreams</h3>
+                    <p>Abstract | 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="figurative">
+                <img src="https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80" alt="Figurative 3D Art">
+                <div class="gallery-item-overlay">
+                    <h3>Virtual Cosmos</h3>
+                    <p>Figurative | 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architectural">
+                <img src="https://images.unsplash.com/photo-1639762681297-068fe5e5e96f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Architectural 3D Art">
+                <div class="gallery-item-overlay">
+                    <h3>Neon Geometry</h3>
+                    <p>Architectural | 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="experimental">
+                <img src="https://images.unsplash.com/photo-1639762681400-bd7b7d1a0c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Experimental 3D Art">
+                <div class="gallery-item-overlay">
+                    <h3>Liquid Light</h3>
+                    <p>Experimental | 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="abstract">
+                <img src="https://images.unsplash.com/photo-1635070041283-35a2167e9e52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Abstract 3D Art">
+                <div class="gallery-item-overlay">
+                    <h3>Fractal Dimensions</h3>
+                    <p>Abstract | 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="figurative">
+                <img src="https://images.unsplash.com/photo-1639762680987-29f5e0d1a0c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Figurative 3D Art">
+                <div class="gallery-item-overlay">
+                    <h3>Digital Humanity</h3>
+                    <p>Figurative | 2023</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architectural">
+                <img src="https://images.unsplash.com/photo-1639762681400-9b9b7d1a0c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Architectural 3D Art">
+                <div class="gallery-item-overlay">
+                    <h3>Urban Structures</h3>
+                    <p>Architectural | 2022</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="experimental">
+                <img src="https://images.unsplash.com/photo-1639762680987-29f5e0d1a0c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Experimental 3D Art">
+                <div class="gallery-item-overlay">
+                    <h3>Data Flow</h3>
+                    <p>Experimental | 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top -->
+    <div class="back-to-top reveal">
+        <a href="#" class="btn"><i class="fas fa-arrow-up"></i> Back to Top</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col reveal">
+                <h3>UI.Aida</h3>
+                <p>Creating immersive 3D art experiences that push the boundaries of digital creativity.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+            <div class="footer-col reveal">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col reveal">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">3D Art Commissions</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Social Media Content</a></li>
+                    <li><a href="#">Digital Exhibitions</a></li>
+                </ul>
+            </div>
+            <div class="footer-col reveal">
+                <h3>Newsletter</h3>
+                <p>Subscribe for updates on new artworks and exhibitions.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom reveal">
+            <p>&copy; 2025 UI.Aida. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
